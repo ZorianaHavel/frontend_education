@@ -1,0 +1,80 @@
+/* img {
+    display: none;
+}
+
+input[type="checkbox"]:checked+img {
+    display: block;
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+.flex_container {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: dodgerblue;
+    width: 900px;
+    /* height: 400px; */
+    padding: 15px;
+}
+
+.flex_element {
+    background: rgb(244, 235, 111);
+    height: 80px;
+    /* width: 80px; */
+    margin: 10px;
+    border: 1 solid #fff;
+    line-height: 78px;
+    text-align: center;
+    font-size: 38px;
+    color: #0041A1;
+}
+
+/* FLEX */
+.flex_container {
+    display: flex;
+    flex-direction: row;
+    /* flex-direction:roe-revers; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse;*/
+    /* flex-wrap: wrap; */
+    justify-content: flex-start;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items:stretch; */
+}
+
+/* .fe1 {
+    align-self: flex-start;
+flex-grow: 1;
+} */
+
+.flex_element {
+    flex-basis: 50px ;
+}
+    
+
+
+/* .fe2 {
+    order: 1;
+}
+
+.fe3 {
+    order: 2;
+}
+
+.fe4 {
+    order: 3;
+}
+
+.fe5 {
+    order: 4;
+}
+
+.fe1 {
+    order: 5;
+} */

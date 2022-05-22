@@ -1,0 +1,160 @@
+/* box-sizing: content-box;  є по замовчуванню в документах */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-size: 20px;
+    /* margin: 8px;- має у браузері дефолтний 8рх, перебиваєм 0*/
+    margin: 0;
+    background-color: rgba(173, 216, 230, 0.496);
+
+}
+
+/* .content { */
+/* width: 100%; */
+/* width: 300px; */
+/* margin-left: auto;
+    margin-right: auto; margin-left:auto; and margin-right: auto - blocK stand center*/
+/* max-width: 600px;
+    min-width: 400px; */
+/* height: 100vh;100vh -розтягнути на всю висоту екрану(ми незавждт знаємо який екран, таким чином висота буде адаптивна) */
+/* font-size: 20px; */
+/* height: auto; стоїть в основному для тексту верстки сайту */
+/* margin-left: auto;
+    margin-right: auto;
+    background-color: aquamarine; */
+/* margin:40px; */
+/* margin:- 40px; */
+/* border: 5px solid royalblue;
+    border-style: dashed; */
+/* margin-top: 50px; */
+/* } */
+
+/* .piksel{
+    width: 1px;
+    height: 1px;
+    background-color: brown;
+    margin: 50px;
+} */
+/* .icon { */
+/* width: 1em;
+    height: 1em;
+    font-size: 36px; */
+/* width: auto;
+    background-color: rgb(29, 139, 93);
+    border: 5px solid red; */
+/* margin-top: -45px; */
+/* } */
+
+/* RELATIVE - не видьоргує блок з позиції а просто візуально наїжджає на сусідній блок зберігши попередні свої позиції
+.content-wrap {
+    background-color: aqua;
+    padding: 30px;
+    position: relative;
+    margin: 50px;
+}
+
+.content1 {
+    background-color: rgb(255, 166, 0);
+    padding: 30px;
+    width: 300px;
+    top: 20px;
+    left: 100px;
+    position: relative;
+
+}
+
+.content2 {
+    background-color: rgb(30, 34, 158);
+    padding: 30px;
+    width: 300px;
+    position: static;
+} */
+
+/* ABSOLUT -  позиціонується до першого батьківського по дереву релатіва, блок міняє свої попередні позиції. виходить поверх сусіднього блоку*/
+/* .content-wrap {
+    background-color: aqua;
+    padding: 30px;
+    position: relative;
+    margin: 50px;
+}
+
+.content1 {
+    background-color: rgb(255, 166, 0);
+    padding: 30px;
+    width: 300px;
+    top: 20px;
+    left: 100px;
+    position: absolute;
+
+}
+
+.content2 {
+    background-color: rgb(30, 34, 158);
+    padding: 30px;
+    width: 300px;
+    position: static;
+} */
+
+/* FIXED - позиціонується відносно вікна браузеру */
+/* .content-wrap {
+    background-color: aqua;
+    padding: 30px;
+    position: relative;
+    margin: 50px;
+}
+
+.content1 {
+    background-color: rgb(255, 166, 0);
+    padding: 30px;
+    width: 300px;
+    top: 20px;
+    left: 100px;
+    position: fixed;
+
+}
+
+.content2 {
+    background-color: rgb(30, 34, 158);
+    padding: 30px;
+    width: 300px;
+    position: static;
+} */
+
+.content-wrap {
+    padding: 30px;
+    position: relative;
+    margin: 50px;
+}
+
+
+
+.content {
+    background-color: antiquewhite;
+    background-image:url('bandana.jpeg');
+    /* background-repeat: repeat-y ; */
+    /* background-repeat: repeat-x; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    padding: 30px;
+    margin: 20px;
+    color: cornflowerblue;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    min-height: 600px;
+    /* white-space:nowrap; текст іде однією лінією */
+    /* text-transform:initial; */
+    /* text-decoration: underline; */
+    /* text-indent: 10px;  визначає відступ на початку рядка, абзац
+    letter-spacing: 6px; відступ між  буквами у рядку */
+    /* line-height: 32px;*/
+}

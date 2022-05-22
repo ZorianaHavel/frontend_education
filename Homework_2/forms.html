@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <title> What Does HTML Do? Forms </title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico " />
+    <link rel="stylesheet" href="common.css">
+    <meta charset="UTF-8" />
+    <meta name="description" content="Free Web tutorials">
+    <meta name="kaywords" content="Video Audio  Forms HTML" />
+    <meta name="author" content="Zoriana Havel" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+    img {
+        padding-left: 10px;
+        margin-left: 15px;
+        float: left;
+        width: 40%;
+    }
+
+    p {
+        font-size: larger;
+        padding-left: 10px;
+    }
+
+    form {
+        border: 2px solid cornflowerblue;
+        padding-left: 10px;
+        margin-left: 15px;
+        width: 56%;
+        height: 40%;
+        float: right;
+    }
+</style>
+
+<body>
+    <header>
+        <!-- <h1><i> <a href="index.html">What Does HTML Do?</a></i></h1> -->
+        <h1><i><a href="index.html">What Does HTML Do?</a>/<a href="video.html">VIDEO</a>/<a
+                    href="audio.html">AUDIO</a>/</i><a href="forms.html">FORMS</a></i></h1>
+    </header>
+    </header>
+    <main>
+        <div>
+            <div>
+                <hr>
+                <br>
+                <aside>
+                    <img src="img/forms.jpg" width="50%" height="50%">
+                </aside>
+                <br>
+                <section>
+                    <i> Тег &lt;form> використовується для створення HTML-форми для введення даних користувачем.</i><br>
+                    <br>
+                    <b>Exemple in browser:</b>
+                    <br>
+                    <br>
+            </div>
+            <div class="info">
+                <form autocomplete="on">
+                    <div>
+                        <label for="fname">First name </label><br>
+                        <input type="text " id="fname" name="fname"> <br>
+                    </div>
+                    <div>
+                        <label for="lname">Last name</label> <br>
+                        <input type="text" id="lname" name="lname"> <br>
+                    </div>
+                    <br>
+                    <div>
+                        <button type="submit">Submit</button>
+                        <br>
+                        <br>
+                    </div>
+                </form>
+            </div>
+            <br>
+            <br>
+            <div>
+                <div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <aside>
+                        <img src="img/select.jpg" width="50%" height="50%">
+                    </aside>
+                    <br>
+                    <br>
+                    <section>
+                        <i>Елемент &lt;select> використовується для створення розкривного списку.
+                            Елемент &lt;select> найчастіше використовується у формі для збору введених даних
+                            користувача.
+                            Теги &lt;option> всередині елемента &lt;select> визначають доступні параметри у спадному
+                            списку.
+                            Доступні атрибути: autofocus, disabled, name, required, multiple. (застосування аналогічне з
+                            елементами input)</i><br>
+                        <br>
+                        <b>Exemple in browser:</b>
+                        <br>
+                        <br>
+                    </section>
+                    <select name="fav_language" id="fav_language">
+                        <option value="volvo">volvo</option>
+                        <option value="saab">saab</option>
+                        <option value="mersedes">mersedes</option>
+                        <option value="audi">audi</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <br>
+                <br>
+                <aside>
+                    <img src="img/texteria.jpg" width="50%" height="50%">
+                </aside>
+                <br>
+                <br>
+                <section>
+                    <i>Тег &lt;textarea> визначає багаторядковий елемент керування введенням тексту.
+                        Елемент &lt;textarea> часто використовується у формі для збору введених користувачів, наприклад
+                        коментарів або оглядів. Розмір текстової області визначається атрибутами <cols> і <rows> (або за
+                                допомогою CSS).
+                                Доступні атрибути: autofocus, disabled, maxlength, name, placeholder, readonly,
+                                required. (застосування аналогічне з елементами input)</i>
+                </section>
+                <br>
+                <b>Exemple in browser:</b>
+                <br>
+                <br>
+                <textarea name="messege" rov="25" cols="50"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad atque nulla sapiente incidunt animi enim dolorum aspernatur. Numquam exercitationem mollitia aliquam architecto quis veniam! Laborum ullam quo officia magnam rerum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, suscipit nulla, nostrum iusto provident sit<br> dicta aspernatur minus debitis numquam doloremque! Explicabo dolore provident enim magni earum reprehenderit error obcaecati.
+                </textarea>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Author: Zoriana Havel</p>
+        <a href=" mailto: zoriana.hrynchyshyn@gmail.com">zoriana.hrynchyshyn@gmail.com</a>
+    </footer>
+</body>
+
+</html>

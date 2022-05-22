@@ -1,0 +1,24 @@
+.parent {
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    padding: 10px;
+}
+
+.navigation {
+    width: 0%;
+    height: 200px;
+    float: left;
+    padding: 20px;
+}
+/* .aside nav a{
+    width: 0%;
+    height: 200px;
+    float: left;
+    padding: 20px;
+} */
+
+.content {
+    margin-left: 15%;
+    height: 400px;
+}
