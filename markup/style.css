@@ -45,7 +45,7 @@ body {
   margin-left: 33px;
 }
 
-.main-top {}
+/* .main-top {} */
 
 .main-top_wrap {
   display: flex;
@@ -240,7 +240,7 @@ body {
 /* My work */
 
 
-.main_card {}
+/* .main_card {} */
 
 .featured h2 {
   /* width: 152px;
@@ -253,7 +253,7 @@ body {
   color: #21243D;
 }
 
-.featured_wrap-card> {}
+/* .featured_wrap-card> {} */
 
 .wrap-card {
   display: flex;
